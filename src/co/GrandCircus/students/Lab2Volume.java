@@ -21,8 +21,12 @@ public class Lab2Volume {
 			double height = scnr.nextDouble();
 		
 		double roomVolume = length * width * height;
-				
-		System.out.println("The rooms volume is: " + roomVolume);
+		double roomArea = length * width;
+		double roomPerimeter = 2 * (length + width);
+		
+		System.out.println("The rooms volume is: " + roomVolume);	
+		System.out.println("The rooms area is: " + roomArea);
+		System.out.println("The rooms perimeter is: " + roomPerimeter);
 		
 		System.out.println();
 		
